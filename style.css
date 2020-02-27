@@ -1,0 +1,112 @@
+*{
+box-sizing: border-box;
+}
+
+body {
+
+}
+
+#menuBar{
+  display: inline-block;
+  line-height: 400px;
+  padding: 10px;
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.menuBar a{
+  color: white;
+  font-family: "Lucida Console";
+  border-style: double;
+}
+.menuBar a:hover{
+  color: orange;
+  background-color: white;
+  font-family: "Lucida Console";
+}
+#titleBanner{
+  display: block;
+  background-image: url("page2img.jpg");
+  border-style: double;
+  border-color: white;
+}
+.titleText {
+  font-family: "Lucida Console";
+  color: white;
+  text-align: center;
+
+}
+#titleBanner{
+  display: block;
+  background-color: white,1;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: double;
+  border-color: white;
+}
+#titleText {
+  font-family: "Lucida Console";
+  color: white;
+  text-align: center;
+}
+
+#mainContainer{
+  position: fixed;
+  display: block;
+  background-color: orange;
+  width: 400px;
+  height: 300vh;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: solid;
+  border-color: black;
+}
+#paragraph{
+  font-family: "Lucida Console";
+  color: white;
+  line-height: 2;
+  margin-left: 4px;
+  margin-right: 4px;
+  text-align: left;
+}
+#leftContainer{
+  position: fixed;
+  display: block;
+  background-color: orange;
+  width: 400px;
+  height: 100vh;
+  margin-left: 750px;
+  margin-right: 0px;
+  border-style: solid;
+  border-color: black;
+}
+
+#leftContainer p{
+  color: black;
+  margin-left: 150px;
+  margin-right: auto;
+  padding: 2px;
+  width: 100px ;
+  height: auto;
+  background-color: white;
+  font-family: "Arial";
+  border-style: double;
+}
+/* NOTE: CSS to fix video to the page and keep it in the background */
+.video{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -10;
+  background: rgba(0,0,0,0.5);
+  color: #flflfl;
+  width: 100%;
+  padding 20px;
+}
